@@ -1,6 +1,6 @@
 <template>
-    <div class="h-[939px] ">
-        <div class="grid grid-cols-3 pb-[80px] h-full">
+    <div class="h-220 pb-35">
+        <div class="grid grid-cols-3  h-full">
 
             <!-- First Column -->
             <div class="col-span-1  bg-[#469AF0] pl-[81px]">
@@ -20,14 +20,14 @@
             </div>
 
             <!-- Second Column -->
-            <div class="col-span-1 relative bg-amber-100">
-                <div class="absolute">
-                    <img src="/images/Anya.png" class=" object-contain h-full w-full " />
-                </div>
+            <div class="col-span-1 bg-amber-100   ">
+
+                <img src="/images/anyaya.png" class="h-full w-full object-cover object-center" />
+
             </div>
 
             <!-- Third Column -->
-            <div class="col-span-1 relative bg-white">
+            <div class="col-span-1 relative bg-white  ">
                 <img src="/images/righttestimonial.png" class="absolute right-0 top-15" />
                 <div class="flex justify-center mt-50 ">
                     <img src="/images/Frame5.png" class="absolute " />
