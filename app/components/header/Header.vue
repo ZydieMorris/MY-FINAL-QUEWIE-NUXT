@@ -4,22 +4,21 @@
 
 <template>
     <div
-        class="w-full shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] h-[94px] pr-[85px] pl-[85px] items-center flex justify-between text-[16px] font-normal">
+        class="w-full z-20 fixed bg-white shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] h-[94px] pr-[85px] pl-[85px] items-center flex justify-between text-[16px] font-normal">
         <!-- Left Side -->
         <div class="flex space-x-25">
             <!-- Logo -->
-            <div>
-                <img src="/images/coloredLogo.png" class="h-[76px] w-[206px]" />
+            <div >
+                <img src="/images/coloredLogo.png" class="h-[76px] w-[206px] " />
             </div>
             <!-- Navigation -->
-            <div class="flex items-center space-x-15 ">
+            <div class="flex items-center space-x-15 font-sans font-normal">
                 <NuxtLink to="/"> HOME </NuxtLink>
                 <NuxtLink to="/aboutus"> ABOUT US </NuxtLink>
                 <NuxtLink to="/features"> FEATURES </NuxtLink>
                 <NuxtLink to="/solutions"> SOLUTIONS </NuxtLink>
                 <NuxtLink to="/contactus"> CONTACT US </NuxtLink>
                 <NuxtLink to="/pricing"> PRICING </NuxtLink>
-
             </div>
         </div>
 
