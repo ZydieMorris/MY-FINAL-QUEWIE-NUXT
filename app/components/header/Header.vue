@@ -4,7 +4,7 @@
 
 <template>
     <div
-        class="w-full z-20 fixed bg-white shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] h-[94px] pr-[85px] pl-[85px] items-center flex justify-between text-[16px] font-normal">
+        class="w-full z-20 fixed bg-white shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] max-w-[1920px] h-[94px] pr-[85px] pl-[85px] items-center flex justify-between text-[16px] font-normal">
         <!-- Left Side -->
         <div class="flex space-x-25">
             <!-- Logo -->

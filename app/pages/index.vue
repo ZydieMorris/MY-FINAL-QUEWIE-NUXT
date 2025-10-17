@@ -9,9 +9,12 @@ import WhatisQuewie from '~/index/WhatisQuewie.vue';
 
 <template>
   <NuxtLayout name="marketing-layout">
-    <HeroSection />
-    <WhatisQuewie />
-    <QuewieWay />
-    <Testimonial />
+  
+      <HeroSection />
+      <WhatisQuewie />
+      <QuewieWay />
+      <Testimonial />
+ 
+    
   </NuxtLayout>
 </template>

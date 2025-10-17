@@ -8,13 +8,15 @@ defineProps<{
 </script>
 
 <template>
-    <div>
-    <!-- Image -->
-        <img :src="image" class=" absolute right-4 top-3.5  w-136 h-82.25" />
+    <div class="pt-48.75 pb-15  flex flex-col space-y-15">
+        
+        <!-- Image -->
+            <img :src="image" class=" w-314.75 h-142.5" />
+        
 
-        <div>
-            <h1>{{ title }}:<span>{{ highlight }}</span></h1>
-            <p>{{ description }}</p>
+        <div class="flex flex-col w-314.75  items-start space-y-8">
+            <h1 class="text-6xl text-[#272727] font-semibold leading-17">{{ title }}:<br><span class="text-[#469AF0]">{{ highlight }}</span></h1>
+            <p class=" text-justify text-2xl text-[#696984] tracking-wide leading-9">{{ description }}</p>
         </div>
     </div>
 </template>

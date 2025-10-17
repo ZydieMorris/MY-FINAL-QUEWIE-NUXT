@@ -1,6 +1,7 @@
 <template>
-    <div class="mr-[85px] ml-[85px] pt-20">
-        <WhatWeDoProps title="Who We Are" description="QUEWIE is the brainchild of a passionate tech start-up team who once faced the same problem we all dread long, disorganized queues. What began as a shared frustration quickly turned into a bold mission: to modernize the way people wait, manage, and serve. Driven by innovation and empathy, our team set out to design a system that doesn’t just shorten lines, but reshapes the experience of waiting itself. We believe that solving this everyday challenge creates a ripple effect of impact transforming how people are served in government offices, hospitals, amusement parks, banks, cafeterias, campuses, and
+    <div class="mr-20 ml-20 pt-20">
+    <div class="flex justify-center flex-col items-center">
+          <WhatWeDoProps title="Who We Are" description="QUEWIE is the brainchild of a passionate tech start-up team who once faced the same problem we all dread long, disorganized queues. What began as a shared frustration quickly turned into a bold mission: to modernize the way people wait, manage, and serve. Driven by innovation and empathy, our team set out to design a system that doesn’t just shorten lines, but reshapes the experience of waiting itself. We believe that solving this everyday challenge creates a ripple effect of impact transforming how people are served in government offices, hospitals, amusement parks, banks, cafeterias, campuses, and
             beyond. At its core, QUEWIE isn’t just about queueing. It’s about reclaiming time, enhancing experiences, and empowering efficiency one line at
             a time." />
 
@@ -21,7 +22,7 @@
             QUEWIE aspires to become the leading platform that bridges efficiency, empathy, and
             innovation, transforming the simple act of waiting into a smarter, more meaningful
             experience. " />
-
+    </div>   
     </div>
 </template>
 
