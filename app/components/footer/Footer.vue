@@ -3,8 +3,10 @@
 </script>
 
 <template>
-    <div class="h-[357px] bg-[#2F2F2F] pl-[130px] pr-[130px] pt-[60px]">
-        <h1 class="text-[50px] font-semibold text-white">QUE<span class="text-[#3691EF]">WIE</span></h1>
+ 
+        <div class="h-[357px] w-full bg-[#2F2F2F] pl-[130px] pr-[130px] pt-[60px]">
+            <div class="max-w-[1920px] mx-auto">
+                     <h1 class="text-[50px] font-semibold text-white">QUE<span class="text-[#3691EF]">WIE</span></h1>
         <div class="flex justify-between -mt-4.5  ">
             <p class="text-[18px] text-[#A6A6A6] mt-9">Get started now try our product</p>
             <div class="relative ">
@@ -29,8 +31,15 @@
                  <p class="text-white text-[18px] font-medium leading-[20px] ml-2.5">Proudly supported by DOST-PCIEERD and the<br> Philippine Startup Ecosystem.</p>
                  <p class="text-white text-[18px] font-medium">© 2025 LinkNeX Solution. Copyright and rights reserved</p>
             </div>
+            </div>
+              
            
+
+      
+     
     </div>
+   
+
 </template>
 
 

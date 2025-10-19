@@ -4,8 +4,10 @@
 
 <template>
     <div
-        class="w-full z-20 fixed bg-white shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] max-w-[1920px] h-[94px] pr-[85px] pl-[85px] items-center flex justify-between text-[16px] font-normal">
-        <!-- Left Side -->
+        class="w-full z-20 fixed bg-white shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)]  h-[94px] flex justify-center  text-[16px] font-normal">
+      
+        <div class=" flex w-[1920px] pl-20 pr-20   justify-between  items-center">
+              <!-- Left Side -->
         <div class="flex space-x-25">
             <!-- Logo -->
             <div >
@@ -21,13 +23,11 @@
                 <NuxtLink to="/pricing"> PRICING </NuxtLink>
             </div>
         </div>
-
         <!-- Right Side -->
         <div class="flex space-x-3  ">
             <Button variant="ghost" class="">Login</Button>
             <Button class="bg-[#3691EF] rounded-[5px]">Signup</Button>
-
         </div>
-
+        </div>
     </div>
 </template>

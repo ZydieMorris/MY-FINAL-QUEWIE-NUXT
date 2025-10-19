@@ -5,16 +5,16 @@ import Testimonial from '~/index/Testimonial.vue';
 import WhatisQuewie from '~/index/WhatisQuewie.vue';
 
 
+
+
 </script>
 
 <template>
-  <NuxtLayout name="marketing-layout">
   
+  <NuxtLayout name="marketing-layout">
       <HeroSection />
-      <WhatisQuewie />
+      <WhatisQuewie/>
       <QuewieWay />
       <Testimonial />
- 
-    
   </NuxtLayout>
 </template>

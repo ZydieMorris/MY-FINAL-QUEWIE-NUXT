@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import HeroSectionAbout from '~/components/aboutus/HeroSectionAbout.vue';
+
 import WhatWeDo from '~/components/aboutus/WhatWeDo.vue';
 
 
 </script>
 
 <template>
-    <NuxtLayout name="marketing-layout">
+    <NuxtLayout name="marketing-layout" >
         <!-- About Us -->
-            <HeroSectionAbout/>
+            <AboutusHeroSectionAbout/>
         <!-- Who we are -->
-            <WhatWeDo/>
+            <AboutusWhatWeDo/>
     </NuxtLayout>
 </template>
