@@ -20,4 +20,17 @@ export default defineNuxtConfig({
     prefix: "",
     componentDir: "./app/components/ui",
   },
+
+  app: {
+    head: {
+      title: 'Nuxt', // default fallback title
+      htmlAttrs: {
+        lang: 'en',
+      },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ],
+    },
+  },
 });
+

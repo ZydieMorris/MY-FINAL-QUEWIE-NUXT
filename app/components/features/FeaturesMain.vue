@@ -6,8 +6,8 @@ import FeatureSlot from './FeatureSlot.vue'
   <div class="p-28 ">
 
     <div class="mt-7">
-        <p class="text-6xl text-[#272727] font-semibold leading-18">Features That Redefine<br></br>
-         <span class="text-7xl text-[#469AF0]">Queue Management</span>
+        <p class="text-4xl text-[#272727] font-semibold leading-13">Features That Redefine<br></br>
+         <span class="text-5xl text-[#469AF0]">Queue Management</span>
         </p>
         
     </div>

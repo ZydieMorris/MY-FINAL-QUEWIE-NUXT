@@ -31,11 +31,11 @@ defineProps({
 
                 <!-- description -->
                 <div class="ml-5">
-                    <p class="text-xl leading-8 tracking-wide text-[#696984]">{{ description }}</p>
+                    <p class=" leading-8 tracking-wide text-[#696984]">{{ description }}</p>
                 </div>
 
                 <div class="mt-13">
-                    <NuxtLink :to="link" class="font-normal text-xl text-[#696984] underline-offset-2 underline ml-5">
+                    <NuxtLink :to="link" class="font-normal  text-[#696984] underline-offset-2 underline ml-5">
                         Learn More
                     </NuxtLink>
                 </div>

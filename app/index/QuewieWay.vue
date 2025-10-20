@@ -14,16 +14,16 @@
                         </h1>
                     </div>
                     <div class="space-y-7">
-                        <p class="text-xl tracking-wide leading-9 text-[#696984] mt-15 ml-6.5">QUEWIE simplifies
+                        <p class=" tracking-wide leading-9 text-[#696984] mt-15 ml-6.5">QUEWIE simplifies
                             workflows,
                             eases employee stress,<br> </br> and ensures faster, smoother service for happier<br></br>
                             customers.
                         </p>
                         <div class="h-5 w-5 rounded-full bg-[#388FF0] absolute top-43 left-150"></div>
 
-                        <a class="underline text-[22px] text-[#696984] ml-6.5 ">Learn More</a>
+                        <a class="underline  text-[#696984] ml-6.5 ">Learn More</a>
                     </div>
-                    
+
                 </div>
 
 
